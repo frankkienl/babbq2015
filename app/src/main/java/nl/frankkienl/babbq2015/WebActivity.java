@@ -30,6 +30,8 @@ public class WebActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         initUI();
+
+        //TODO: als je de pagina hebt geladen in de webview, zorg dat de webview er nog is na scherm rotatie!
     }
 
     public void startWebview() {

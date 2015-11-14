@@ -42,4 +42,12 @@
         android:id="@+id/babbq_web"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_below="@id/babbq_web"
+        android:layout_marginTop="50dp"
+        android:text="Speech"
+        android:id="@+id/babbq_speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </RelativeLayout>

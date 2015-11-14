@@ -32,6 +32,8 @@
 
         <activity android:name=".WebActivity" android:theme="@style/AppTheme.NoActionBar" />
 
+        <activity android:name=".SpeechActivity" android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 
 </manifest>
