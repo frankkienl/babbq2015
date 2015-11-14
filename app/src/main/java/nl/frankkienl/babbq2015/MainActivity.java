@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         initUI();
     }
 
-    public void initUI(){
+    public void initUI() {
         Button sayCheese = (Button) findViewById(R.id.babbq_saycheese);
         sayCheese.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, SoundBoardActivity.class);
+                startActivity(i);
+            }
+        });
+        Button web = (Button) findViewById(R.id.babbq_web);
+        web.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, WebActivity.class);
                 startActivity(i);
             }
         });
